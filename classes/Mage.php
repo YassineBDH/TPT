@@ -1,17 +1,11 @@
 <?php
 
-require_once ('classes/Personnage.php');
-
 
 class Mage extends Personnage {
-    public function affichage(){
-        return "Je suis Mage";
-    }
-    public function capacite(){
-        return "jette un sort";
+    public function __construct(){
+        $this->pointDeVie = 20;
+        $this->pointDattack = 5;
+        $this->pointDeDefence =3;
     }
 }
-
-
-
 ?>
