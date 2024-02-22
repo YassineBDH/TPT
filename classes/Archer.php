@@ -3,9 +3,12 @@
 
 class Archer extends Personnage {
     public function __construct(){
-        $this->pointDeVie = 20;
-        $this->pointDattack = 5;
-        $this->pointDeDefence =3;
+        $this->pointDeVie = 22;
+        $this->pointDattack = 7;
+        $this->pointDeDefence =2;
+    }
+    public function capaSpe(){
+        return "j'utilise ma capasité tir";
     }
 }
 ?>

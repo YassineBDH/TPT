@@ -30,7 +30,12 @@ class Personnage{
         $this->pointDeDefence = $pointDeDefence;
     }
 
-
+    //Method
+    
+    public function attaque($player){
+        return "Le joueur $player est attaqué";
+    }
+    
 }
 
 ?>

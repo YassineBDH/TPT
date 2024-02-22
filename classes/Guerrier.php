@@ -7,7 +7,7 @@ class Guerrier extends Personnage {
         $this->pointDeDefence =3;
     }
     public function capaSpe(){
-        echo ""
+        return "j'active ma capacité Mur De Fer";
     }
 }
 ?>
